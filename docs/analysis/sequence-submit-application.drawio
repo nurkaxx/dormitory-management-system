@@ -1,0 +1,27 @@
+<mxfile host="app.diagrams.net" modified="2026-11-25T12:00:00.000Z" agent="ChatGPT" version="24.7.17">
+  <diagram name="Sequence" id="Sequence">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root><mxCell id="0"/><mxCell id="1" parent="0"/>
+<mxCell id="p0" value="Студент (Actor)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="80" y="40" width="150" height="55" as="geometry"/></mxCell>
+<mxCell id="l0" value="" style="shape=line;dashed=1;html=1;strokeColor=#777777;" vertex="1" parent="1"><mxGeometry x="155" y="95" width="0" height="650" as="geometry"/></mxCell>
+<mxCell id="p1" value="Веб-интерфейс" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="340" y="40" width="150" height="55" as="geometry"/></mxCell>
+<mxCell id="l1" value="" style="shape=line;dashed=1;html=1;strokeColor=#777777;" vertex="1" parent="1"><mxGeometry x="415" y="95" width="0" height="650" as="geometry"/></mxCell>
+<mxCell id="p2" value="Өтінім қызметі" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="650" y="40" width="150" height="55" as="geometry"/></mxCell>
+<mxCell id="l2" value="" style="shape=line;dashed=1;html=1;strokeColor=#777777;" vertex="1" parent="1"><mxGeometry x="725" y="95" width="0" height="650" as="geometry"/></mxCell>
+<mxCell id="p3" value="Деректер базасы" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="980" y="40" width="150" height="55" as="geometry"/></mxCell>
+<mxCell id="l3" value="" style="shape=line;dashed=1;html=1;strokeColor=#777777;" vertex="1" parent="1"><mxGeometry x="1055" y="95" width="0" height="650" as="geometry"/></mxCell>
+<mxCell id="m0" value="1. Өтінім формасын ашу" style="endArrow=block;html=1;rounded=0;dashed=0;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="155" y="150" as="sourcePoint"/><mxPoint x="415" y="150" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m1" value="2. Форма көрсету" style="endArrow=block;html=1;rounded=0;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="415" y="205" as="sourcePoint"/><mxPoint x="155" y="205" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m2" value="3. Өтінім деректерін жіберу" style="endArrow=block;html=1;rounded=0;dashed=0;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="155" y="260" as="sourcePoint"/><mxPoint x="415" y="260" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m3" value="4. Деректерді тексеру" style="endArrow=block;html=1;rounded=0;dashed=0;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="415" y="315" as="sourcePoint"/><mxPoint x="725" y="315" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m4" value="5. Студент пен бөлмені тексеру" style="endArrow=block;html=1;rounded=0;dashed=0;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="725" y="370" as="sourcePoint"/><mxPoint x="1055" y="370" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m5" value="6. Тексеру нәтижесі" style="endArrow=block;html=1;rounded=0;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="1055" y="425" as="sourcePoint"/><mxPoint x="725" y="425" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m6" value="7a. Өтінімді сақтау [деректер дұрыс]" style="endArrow=block;html=1;rounded=0;dashed=0;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="725" y="500" as="sourcePoint"/><mxPoint x="1055" y="500" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m7" value="8a. Сақтау сәтті" style="endArrow=block;html=1;rounded=0;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="1055" y="555" as="sourcePoint"/><mxPoint x="725" y="555" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m8" value="9a. Өтінім қабылданды" style="endArrow=block;html=1;rounded=0;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="725" y="610" as="sourcePoint"/><mxPoint x="415" y="610" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m9" value="7b. Қате хабарын қайтару [деректер қате]" style="endArrow=block;html=1;rounded=0;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="725" y="680" as="sourcePoint"/><mxPoint x="415" y="680" as="targetPoint"/></mxGeometry></mxCell>
+<mxCell id="m10" value="8b. Қате туралы хабарлау" style="endArrow=block;html=1;rounded=0;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="415" y="735" as="sourcePoint"/><mxPoint x="155" y="735" as="targetPoint"/></mxGeometry></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
