@@ -23,3 +23,4 @@
 ## Құжаттама
 - [Activity: өтінім беру](docs/analysis/activity-submit-application.png)
 - [Sequence: өтінім беру](docs/analysis/sequence-submit-application.png)
+- Диаграммалар «Өтінім беру» сценарийін сипаттайды.
